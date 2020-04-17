@@ -9,6 +9,10 @@ namespace Zahlensysteme
     {
         static void Main(string[] args)
         {
+
+
+
+            Console.ReadKey();
         }
     }
 }
