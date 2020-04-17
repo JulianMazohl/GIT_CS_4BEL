@@ -39,5 +39,11 @@ namespace Zahlensysteme
             Console.WriteLine();
             Console.ForegroundColor = origTextFarbe;
         }
+        static string binaerEingabe()
+        {
+            Console.WriteLine("Bitte eine Binärzahl eingeben: ");
+            string input = Console.ReadLine();
+            return input;
+        }
     }
 }
